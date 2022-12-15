@@ -1,0 +1,5 @@
+application:
+  astronomical:
+    data:
+      base-url: https://api.le-systeme-solaire.net/rest
+      bodies-url: ${application.astronomical.data.base-url}/bodies
