@@ -3,6 +3,17 @@ package astronomical.data.controller.model;
 import java.util.List;
 import lombok.Data;
 
+/**
+ * This is the "main" JSON object as returned by the downstream REST API.
+ * <p>
+ * Class-level annotations:
+ * 
+ * @Data This is a Lombok annotation. It creates getters and setters for all
+ *       instance variables, as well as toString, hashCode, and equals methods.
+ * 
+ * @author Promineo
+ *
+ */
 @Data
 public class Body {
   private String id;

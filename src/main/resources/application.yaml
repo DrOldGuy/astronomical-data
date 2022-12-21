@@ -1,3 +1,7 @@
+# Contains the URI of the downstream REST API used to retrieve astronomical body
+# data. The value can be accessed by a class like this:
+#
+# @Value("${application.astronomical.data.bodies-url}")
 application:
   astronomical:
     data:
